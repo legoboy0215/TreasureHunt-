@@ -1,2 +1,2 @@
 # TreasureHunt-
-A TreasureHunt plugin for pocketmine servers
+A TreasureHunt Minigame Plugin for Pocketmine-MP Servers
