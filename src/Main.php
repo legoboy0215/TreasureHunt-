@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Primus;
+namespace Gumbratt;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
