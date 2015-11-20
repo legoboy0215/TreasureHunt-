@@ -1,9 +1,9 @@
 enable: "§2Enabled"
 disable: "§4Disabled"
 chance: 21
-mega-chance: 16
+Rare-chance: 16
 # Items: 1. ID, 2. Damage, 3. Ammount. eg: 1 Stone Block - 1-0-1
-items:
+Regular-items:
  - 295-0-12
  - 264-0-1
  - 265-0-3
@@ -20,7 +20,7 @@ items:
  - 296-0-3
  - 30-0-2
  - 288-0-12
-mega-items:
+Rare-items:
  - 264-0-5
  - 265-0-6
  - 266-0-6
@@ -37,8 +37,4 @@ mega-items:
  - 315-0-1
  - 287-0-32
  - 288-0-16
- - 320-0-2
-# Messages
-player-got-treasure: "§e{PLAYER}§f Found A §2§lTreasureChest"
-player-got-mega-treasure: "§l{PLAYER} Found A §4MEGA§2 TreasureChest"
-...
+---
