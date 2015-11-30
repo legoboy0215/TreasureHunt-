@@ -41,7 +41,7 @@ class Treasure extends PluginBase implements Listener{
 	public function getChance(){
 		$mC = 1000 - $this->getConfig()->get('mega-chance');
 		$nC = $this->getConfig()->get('chance');
-		$rC = rand(0, 1000);
+		$rC = mt_rand(0, 1000);
 		if($rC <= $nC){
 			$this->getLogger()->info("$rC \<\= $nC");
 			return 1;
